@@ -1,4 +1,4 @@
-"""Train/evaluate grouped bug-test ranking with leak-free retrieval memory."""
+
 from __future__ import annotations
 import csv
 import json
