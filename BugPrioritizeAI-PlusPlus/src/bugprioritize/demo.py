@@ -1,4 +1,4 @@
-"""Deliberately synthetic records for fast integration tests ONLY, never research results."""
+
 from __future__ import annotations
 import random
 from datetime import datetime, timedelta, timezone
