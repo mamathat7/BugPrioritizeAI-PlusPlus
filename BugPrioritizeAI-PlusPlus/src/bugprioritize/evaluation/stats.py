@@ -1,4 +1,4 @@
-"""Bug-level paired testing with seed averaging, Holm adjustment and project bootstrap."""
+
 from __future__ import annotations
 from collections import defaultdict
 import csv
