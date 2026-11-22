@@ -1,4 +1,4 @@
-"""From actual saved outputs only: clear publication figures, no fabricated arrays."""
+
 from __future__ import annotations
 import csv
 from collections import defaultdict
