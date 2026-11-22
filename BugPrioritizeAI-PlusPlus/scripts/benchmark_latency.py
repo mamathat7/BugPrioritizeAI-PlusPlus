@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""Inference microbenchmark. NOT a claim about the paper's T4 latency."""
+
 import argparse
 import json
 import statistics
