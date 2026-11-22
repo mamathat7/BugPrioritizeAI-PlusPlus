@@ -1,4 +1,4 @@
-"""Canonical JSONL bug schema and reproducible pre-decision historical features."""
+
 from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
