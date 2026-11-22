@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-"""Opt-in clone of public benchmark repositories; never silently downloads data.
 
-Benchmark-specific runtime setup (Perl, Java8, Maven, legacy Conda) is documented
-in docs/BENCHMARKS.md and deliberately not attempted during pip install.
-"""
 import argparse
 import json
 import subprocess
