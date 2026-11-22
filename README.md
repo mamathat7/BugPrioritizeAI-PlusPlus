@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/1467459684.svg)](https://doi.org/10.5281/zenodo.24439779)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/mamathat7/BugPrioritizeAI-PlusPlus)
+
 # BugPrioritizeAI++
 
 ### Multimodal Test-Case Prioritisation via Retrieval-Augmented Fusion of Bug Reports, Code Diffs, and Historical Failure Signals
