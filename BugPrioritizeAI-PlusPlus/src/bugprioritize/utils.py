@@ -1,4 +1,4 @@
-"""Stable utilities; no network calls, implicit benchmark downloads or magic results."""
+
 from __future__ import annotations
 import csv
 import hashlib
