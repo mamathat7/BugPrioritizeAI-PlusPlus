@@ -1,4 +1,4 @@
-"""Train-fold-only numerical transforms; never use observed target runtime at inference."""
+
 from __future__ import annotations
 import math
 import numpy as np
