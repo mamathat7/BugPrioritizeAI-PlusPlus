@@ -1,8 +1,4 @@
-"""Reproducible heuristic, IR, ranking, GRU and policy-gradient comparator implementations.
 
-Model/algorithm identities remain explicit in reports; RETECS is an independently
-implemented RETECS-style actor, not the original unreleased exact training code.
-"""
 from __future__ import annotations
 from collections import Counter
 import json
