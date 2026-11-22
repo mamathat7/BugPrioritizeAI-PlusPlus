@@ -1,4 +1,4 @@
-"""One-fault-per-bug APFD/APFDc and ranking metrics. No outcome-dependent candidate selection."""
+
 from __future__ import annotations
 import math
 import numpy as np
