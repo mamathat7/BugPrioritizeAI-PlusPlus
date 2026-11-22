@@ -1,0 +1,25 @@
+# For reproduction attempts on full official datasets; NOT executed automatically.
+scenario: rkd
+model:
+  encoder: codebert
+  checkpoint: microsoft/codebert-base
+  hidden: 256
+  dropout: 0.2
+  topk: 10
+train:
+  epochs: 50
+  patience: 8
+  batch_size: 32
+  lr: 0.0001
+  ranking_weight: 1.0
+  cost_weight: 0.5
+  l2_weight: 0.00001
+  positive_weight: 5.0
+  margin: 1.0
+  temporal_decay: 0.8
+  seeds: [11, 23, 37, 51, 71]
+validation:
+  primary: APFDc
+  protocols: [projectwise, timewise, crossdataset]
+  metrics: [APFD, APFDc, MRR, Recall@5, Recall@10, NDCG@5, NDCG@10, Top@5, Top@10]
+  cluster_bootstrap_samples: 10000

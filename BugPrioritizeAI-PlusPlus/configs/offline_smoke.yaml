@@ -1,0 +1,11 @@
+# Small offline test. Never report its numbers in the manuscript.
+model:
+  encoder: hash
+  hidden: 24
+  vocab: 256
+  topk: 5
+train:
+  epochs: 2
+  batch_size: 12
+  seed: 11
+  memory_cap: 100
