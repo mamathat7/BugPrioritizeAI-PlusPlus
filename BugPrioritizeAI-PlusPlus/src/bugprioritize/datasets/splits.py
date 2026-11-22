@@ -1,4 +1,4 @@
-"""Fixed, auditable grouped, temporal and cross-benchmark partitions."""
+
 from __future__ import annotations
 from collections import defaultdict
 from ..utils import date_value, read_jsonl, write_json, stable_hash
