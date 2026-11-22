@@ -1,9 +1,4 @@
-"""Official-harness collectors for reproducible real benchmark runs.
 
-These are intentionally strict: missing build tools, unavailable historical issue text,
-failed compilation or ambiguous test verdicts are reported, never replaced with synthetic
-labels. Each project may require its benchmark's legacy dependencies and Docker image.
-"""
 from __future__ import annotations
 import difflib
 import os
