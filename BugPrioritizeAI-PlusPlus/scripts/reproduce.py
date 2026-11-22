@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""Opt-in multi-fold multi-seed experiment orchestrator (large GPU workloads)."""
+
 import argparse
 import json
 from pathlib import Path
